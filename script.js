@@ -61,7 +61,7 @@ function finishQuiz() {
         document.querySelector('.scorePct').style.color = "red"
     } else if (points >= 30 && points < 70) {
         document.querySelector('.scoreText1').innerHTML = 'Muito Bom'
-        document.querySelector('.scorePct').style.color = "yeloow"
+        document.querySelector('.scorePct').style.color = "yellow"
     } else if (points >= 70) {
         document.querySelector('.scoreText1').innerHTML = 'Parabéns'
         document.querySelector('.scorePct').style.color = "#0d630d"
