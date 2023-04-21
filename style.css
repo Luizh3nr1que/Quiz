@@ -40,19 +40,8 @@ h1 {
 }
 
 .questionArea {
-    animation: Qarea 1s infinite alternate;
     max-width: 500px;
     width: 100%;
-}
-
-@keyframes Qarea {
-    from {
-        transform: translateY(9px);
-    }
-
-    to {
-        transform: translateX(0);
-    }
 }
 
 .question {
